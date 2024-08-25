@@ -1,4 +1,4 @@
-const esBisiesto = require('./bisiesto');
+import esBisiesto from "./bisiesto.js";
 
 test('2000 es un año bisiesto (divisible por 400)', () => {
     expect(esBisiesto(2000)).toBe(true);
